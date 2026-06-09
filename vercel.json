@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "felicitous.tech" }],
+      "destination": "https://www.felicitous.tech/:path*",
+      "permanent": true
+    }
+  ]
+}
