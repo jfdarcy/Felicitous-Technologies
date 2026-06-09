@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Felicitous Technologies - We're passionate about creating technology that people love. UX Research, Human Factors Engineering, Software Development, and Psychological Research.">
+    <title>Felicitous Technologies | Human-Centered Technology Solutions</title>
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="theme-color" content="#0f172a">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <span class="logo-text">Felicitous</span>
+                <span class="logo-accent">Technologies</span>
+            </a>
+            <ul class="nav__menu" id="nav-menu">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#services" class="nav__link">Services</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#products" class="nav__link">Products</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link nav__link--cta">Contact</a>
+                </li>
+            </ul>
+            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+                <span class="hamburger"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero__bg" aria-hidden="true">
+                <div class="hero__orb hero__orb--1"></div>
+                <div class="hero__orb hero__orb--2"></div>
+                <div class="hero__orb hero__orb--3"></div>
+            </div>
+            <div class="container hero__container">
+                <div class="hero__content">
+                    <p class="hero__company-label">
+                        <span class="logo-text">Felicitous</span>
+                        <span class="logo-accent">Technologies</span>
+                    </p>
+                    <div class="hero__definition">
+                        <span class="hero__word">fe·lic·i·tous</span>
+                        <span class="hero__pos"><em>(adjective)</em></span>
+                        <span class="hero__meaning">well chosen or suited to the circumstances.</span>
+                    </div>
+                    <h1 class="hero__title">We're passionate about creating technology that people <span class="text-gradient--warm">love</span>.</h1>
+                    <p class="hero__description">
+                        Our collaborative approach blends creativity with data-driven insights to deliver exceptional user experiences.
+                    </p>
+                    <div class="hero__actions">
+                        <a href="#contact" class="btn btn--hero-primary">Let's Talk</a>
+                        <a href="#services" class="btn btn--hero-outline">Our Services</a>
+                    </div>
+                </div>
+                <div class="hero__visual" aria-hidden="true">
+                    <svg viewBox="0 0 440 440" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Concentric rings -->
+                        <circle cx="220" cy="220" r="185" stroke="rgba(20,184,166,0.15)" stroke-width="1"/>
+                        <circle cx="220" cy="220" r="120" stroke="rgba(14,165,233,0.2)" stroke-width="1"/>
+                        <circle cx="220" cy="220" r="55" stroke="rgba(20,184,166,0.35)" stroke-width="1.5"/>
+                        <!-- Dashed spokes to outer nodes -->
+                        <line x1="220" y1="220" x2="220" y2="35" stroke="rgba(20,184,166,0.18)" stroke-width="1" stroke-dasharray="4 5"/>
+                        <line x1="220" y1="220" x2="396" y2="163" stroke="rgba(14,165,233,0.18)" stroke-width="1" stroke-dasharray="4 5"/>
+                        <line x1="220" y1="220" x2="329" y2="370" stroke="rgba(20,184,166,0.18)" stroke-width="1" stroke-dasharray="4 5"/>
+                        <line x1="220" y1="220" x2="111" y2="370" stroke="rgba(14,165,233,0.18)" stroke-width="1" stroke-dasharray="4 5"/>
+                        <line x1="220" y1="220" x2="44" y2="163" stroke="rgba(20,184,166,0.18)" stroke-width="1" stroke-dasharray="4 5"/>
+                        <!-- Highlighted arc segments on outer ring -->
+                        <path d="M 220 35 A 185 185 0 0 1 396 163" stroke="rgba(14,165,233,0.5)" stroke-width="2" fill="none"/>
+                        <path d="M 44 163 A 185 185 0 0 1 220 35" stroke="rgba(20,184,166,0.5)" stroke-width="2" fill="none"/>
+                        <path d="M 111 370 A 185 185 0 0 1 329 370" stroke="rgba(15,118,110,0.3)" stroke-width="1.5" fill="none"/>
+                        <!-- Outer nodes with glow halos -->
+                        <circle cx="220" cy="35" r="18" fill="rgba(14,165,233,0.08)"/>
+                        <circle cx="220" cy="35" r="9" fill="rgba(14,165,233,0.85)"/>
+                        <circle cx="396" cy="163" r="15" fill="rgba(20,184,166,0.08)"/>
+                        <circle cx="396" cy="163" r="7" fill="rgba(15,118,110,0.8)"/>
+                        <circle cx="329" cy="370" r="16" fill="rgba(14,165,233,0.08)"/>
+                        <circle cx="329" cy="370" r="8" fill="rgba(14,165,233,0.75)"/>
+                        <circle cx="111" cy="370" r="14" fill="rgba(20,184,166,0.08)"/>
+                        <circle cx="111" cy="370" r="7" fill="rgba(20,184,166,0.75)"/>
+                        <circle cx="44" cy="163" r="17" fill="rgba(15,118,110,0.08)"/>
+                        <circle cx="44" cy="163" r="8" fill="rgba(15,118,110,0.8)"/>
+                        <!-- Middle-ring satellite dots -->
+                        <circle cx="220" cy="100" r="4" fill="rgba(14,165,233,0.55)"/>
+                        <circle cx="334" cy="183" r="4" fill="rgba(15,118,110,0.55)"/>
+                        <circle cx="291" cy="317" r="4" fill="rgba(14,165,233,0.55)"/>
+                        <circle cx="149" cy="317" r="4" fill="rgba(20,184,166,0.55)"/>
+                        <circle cx="106" cy="183" r="4" fill="rgba(15,118,110,0.55)"/>
+                        <!-- Connections: outer node to nearest middle-ring dot -->
+                        <line x1="220" y1="35" x2="220" y2="100" stroke="rgba(14,165,233,0.25)" stroke-width="1"/>
+                        <line x1="396" y1="163" x2="334" y2="183" stroke="rgba(15,118,110,0.25)" stroke-width="1"/>
+                        <line x1="329" y1="370" x2="291" y2="317" stroke="rgba(14,165,233,0.25)" stroke-width="1"/>
+                        <line x1="111" y1="370" x2="149" y2="317" stroke="rgba(20,184,166,0.25)" stroke-width="1"/>
+                        <line x1="44" y1="163" x2="106" y2="183" stroke="rgba(15,118,110,0.25)" stroke-width="1"/>
+                        <!-- Subtle cross-connections between adjacent middle-ring dots -->
+                        <line x1="220" y1="100" x2="334" y2="183" stroke="rgba(14,165,233,0.1)" stroke-width="1"/>
+                        <line x1="106" y1="183" x2="220" y2="100" stroke="rgba(20,184,166,0.1)" stroke-width="1"/>
+                        <!-- Center node -->
+                        <circle cx="220" cy="220" r="22" fill="none" stroke="rgba(20,184,166,0.4)" stroke-width="1"/>
+                        <circle cx="220" cy="220" r="14" fill="rgba(20,184,166,0.9)"/>
+                    </svg>
+                </div>
+            </div>
+            <div class="hero__wave" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 80" preserveAspectRatio="none">
+                    <path d="M0,40 C240,80 480,0 720,40 C960,80 1200,0 1440,40 L1440,80 L0,80 Z" fill="#ffffff"/>
+                </svg>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services" id="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Services</h2>
+                    <p class="section-subtitle">Comprehensive solutions tailored to your needs</p>
+                </div>
+                <div class="services__grid">
+                    <!-- UX Research -->
+                    <article class="service-card">
+                        <div class="service-card__icon service-card__icon--ux">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <path d="m21 21-4.3-4.3"></path>
+                                <path d="M11 8v6"></path>
+                                <path d="M8 11h6"></path>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">User Experience Research</h3>
+                        <p class="service-card__description">
+                            Qualitative and quantitative research methods to understand your users deeply.
+                        </p>
+                        <ul class="service-card__list">
+                            <li>Usability testing</li>
+                            <li>Survey research</li>
+                            <li>Card sorts and tree tests</li>
+                            <li>UX research operations</li>
+                        </ul>
+                    </article>
+
+                    <!-- Human Factors Engineering -->
+                    <article class="service-card">
+                        <div class="service-card__icon service-card__icon--hf">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Human Factors Engineering</h3>
+                        <p class="service-card__description">
+                            Design systems that work seamlessly with human capabilities and limitations.
+                        </p>
+                        <ul class="service-card__list">
+                            <li>Human factors engineering plans</li>
+                            <li>Compliance with design standards</li>
+                            <li>Task analyses</li>
+                            <li>Literature searches</li>
+                        </ul>
+                    </article>
+
+                    <!-- Software Development -->
+                    <article class="service-card">
+                        <div class="service-card__icon service-card__icon--dev">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polyline points="16 18 22 12 16 6"></polyline>
+                                <polyline points="8 6 2 12 8 18"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Software Development</h3>
+                        <p class="service-card__description">
+                            Build modern, human-centered applications that solve real problems.
+                        </p>
+                        <ul class="service-card__list">
+                            <li>Low-code platforms (Bubble)</li>
+                            <li>Web app development</li>
+                            <li>Human-centered design</li>
+                            <li>AI-powered solutions</li>
+                        </ul>
+                    </article>
+
+                    <!-- Psychological Research -->
+                    <article class="service-card">
+                        <div class="service-card__icon service-card__icon--psych">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                                <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="service-card__title">Psychological Research</h3>
+                        <p class="service-card__description">
+                            Rigorous research methods to inform evidence-based decisions.
+                        </p>
+                        <ul class="service-card__list">
+                            <li>Experimental design</li>
+                            <li>Statistical analyses</li>
+                            <li>Literature reviews</li>
+                            <li>APA format report writing</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section class="products" id="products">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Products</h2>
+                    <p class="section-subtitle">Tools we've built to solve real-world problems</p>
+                </div>
+                <div class="products__grid">
+                    <!-- Do users get it? -->
+                    <article class="product-card">
+                        <div class="product-card__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <path d="m21 21-4.3-4.3"></path>
+                                <circle cx="11" cy="8" r="2"></circle>
+                                <path d="M11 14v-2"></path>
+                            </svg>
+                        </div>
+                        <div class="product-card__content">
+                            <h3 class="product-card__title">Do users get it?</h3>
+                            <p class="product-card__tagline">UX Research Tools Suite</p>
+                            <p class="product-card__description">
+                                A comprehensive suite of UX research tools designed to help you understand how users interact with your products. Get actionable insights to improve usability and user satisfaction.
+                            </p>
+                            <a href="https://www.dousersgetit.com" target="_blank" rel="noopener noreferrer" class="product-card__link">
+                                <span>Visit dousersgetit.com</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M7 7h10v10"></path>
+                                    <path d="M7 17 17 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Fair Hire AI -->
+                    <article class="product-card">
+                        <div class="product-card__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                                <circle cx="9" cy="7" r="4"></circle>
+                                <path d="M22 21v-2a4 4 0 0 0-3-3.87"></path>
+                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                <path d="m9 12 2 2 4-4"></path>
+                            </svg>
+                        </div>
+                        <div class="product-card__content">
+                            <h3 class="product-card__title">Fair Hire AI</h3>
+                            <p class="product-card__tagline">Inclusive Hiring Tools</p>
+                            <p class="product-card__description">
+                                Empower your organization to build diverse and inclusive workforces through fair and unbiased hiring practices. Fair Hire AI automatically removes sensitive personal information from job application materials to help hiring teams make unbiased decisions.
+                            </p>
+                            <a href="https://www.fairhireai.com" target="_blank" rel="noopener noreferrer" class="product-card__link">
+                                <span>Visit fairhireai.com</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M7 7h10v10"></path>
+                                    <path d="M7 17 17 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about__content">
+                    <h2 class="section-title">Why Work With Us?</h2>
+                    <p class="about__text">
+                        At Felicitous Technologies, we believe that the best solutions emerge when human insight meets technical excellence. Our team combines deep expertise in psychology, human factors, and software engineering to create technology that truly serves its users.
+                    </p>
+                    <div class="about__features">
+                        <div class="feature">
+                            <div class="feature__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"></path>
+                                    <path d="m9 12 2 2 4-4"></path>
+                                </svg>
+                            </div>
+                            <div class="feature__content">
+                                <h4>Data-Driven Insights</h4>
+                                <p>Every recommendation is backed by research and evidence.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                </svg>
+                            </div>
+                            <div class="feature__content">
+                                <h4>Collaborative Approach</h4>
+                                <p>We work closely with you to understand your unique challenges.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                                </svg>
+                            </div>
+                            <div class="feature__content">
+                                <h4>Excellence in Execution</h4>
+                                <p>We deliver polished solutions that exceed expectations.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="stats-banner">
+                    <div class="stat">
+                        <span class="stat__number">100%</span>
+                        <span class="stat__label">Human-Centered</span>
+                    </div>
+                    <div class="stats-banner__divider" aria-hidden="true"></div>
+                    <div class="stat">
+                        <span class="stat__number">∞</span>
+                        <span class="stat__label">Curiosity</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact CTA Section -->
+        <section class="contact" id="contact">
+            <div class="container contact__container">
+                <div class="contact__content">
+                    <h2 class="contact__title">Let's build something amazing together!</h2>
+                    <p class="contact__text">
+                        We're eager to assist you with your projects. Whether you need UX research, human factors expertise, or custom software development, we're here to help.
+                    </p>
+                    <a href="mailto:info@felicitous.tech" class="btn btn--primary btn--large">
+                        <span>Send Us a Message</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14"></path>
+                            <path d="m12 5 7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__brand">
+                <span class="logo-text">Felicitous</span>
+                <span class="logo-accent">Technologies</span>
+            </div>
+            <p class="footer__tagline">Creating technology that people love.</p>
+            <div class="footer__links">
+                <a href="#home">Home</a>
+                <a href="#services">Services</a>
+                <a href="#products">Products</a>
+            </div>
+            <p class="footer__copyright">© 2024&ndash;<span id="copyright-year">2026</span> Felicitous Technologies, LLC. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
